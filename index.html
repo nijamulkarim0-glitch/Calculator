@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="calculator">
+
+            <!-- Display Screen -->
+            <div class="display-screen">
+                <div id="display"></div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+
+                <table>
+
+                    <!-- Row 1 -->
+                    <tr>
+                        <td>
+                            <button id="clear">C</button>
+                        </td>
+
+                        <td>
+                            <button class="button-operator">/</button>
+                        </td>
+
+                        <td>
+                            <button class="button-operator">*</button>
+                        </td>
+
+                        <td>
+                            <button class="button-operator">&lt;</button>
+                        </td>
+                    </tr>
+
+                    <!-- Row 2 -->
+                    <tr>
+                        <td><button class="button-number">7</button></td>
+                        <td><button class="button-number">8</button></td>
+                        <td><button class="button-number">9</button></td>
+                        <td><button class="button-operator">-</button></td>
+                    </tr>
+
+                    <!-- Row 3 -->
+                    <tr>
+                        <td><button class="button-number">4</button></td>
+                        <td><button class="button-number">5</button></td>
+                        <td><button class="button-number">6</button></td>
+                        <td><button class="button-operator">+</button></td>
+                    </tr>
+
+                    <!-- Row 4 -->
+                    <tr>
+                        <td><button class="button-number">1</button></td>
+                        <td><button class="button-number">2</button></td>
+                        <td><button class="button-number">3</button></td>
+
+                        <td rowspan="2">
+                            <button id="equal">=</button>
+                        </td>
+                    </tr>
+
+                    <!-- Row 5 -->
+                    <tr>
+                        <td><button>(</button></td>
+                        <td><button class="button-number">0</button></td>
+                        <td><button>)</button></td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
