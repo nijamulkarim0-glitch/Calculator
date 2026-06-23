@@ -1,0 +1,135 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    background: purple;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    place-items: center;
+}
+
+/* =========================
+   CALCULATOR
+========================= */
+
+.calculator {
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    height: auto;
+    width: auto;
+
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================
+   DISPLAY SCREEN
+========================= */
+
+.display-screen {
+    width: 100%;
+}
+
+#display {
+    height: 140px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    padding: 15px;
+
+    font-size: 2rem;
+    font-weight: bold;
+
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    width: 60px;
+    height: 60px;
+
+    border: 0;
+
+    margin: 5px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* =========================
+   CLEAR BUTTON
+========================= */
+
+#clear {
+    background: crimson;
+    color: white;
+}
+
+/* =========================
+   OPERATOR BUTTONS
+========================= */
+
+.button-operator {
+    background: #000;
+    color: #fff;
+}
+
+/* =========================
+   EQUAL BUTTON
+========================= */
+
+#equal {
+    height: 130px;
+    width: 60px;
+
+    background: #444;
+    color: white;
+
+    font-size: 24px;
+}
+
+/* =========================
+   NUMBER BUTTONS
+========================= */
+
+.button-number {
+    background: #f1f1f1;
+}
